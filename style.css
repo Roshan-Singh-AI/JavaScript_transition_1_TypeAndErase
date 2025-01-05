@@ -1,0 +1,28 @@
+/* General styles for PC */
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+#full-line {
+    color: white;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; 
+    }
+
+    #full-line {
+        font-size: x-large; 
+        text-align: center; 
+    }
+}
